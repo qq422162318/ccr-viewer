@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- 深色圆角底 -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M4,0 h40 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-40 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+    <!-- 青色圆环：代表网关/中转 -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M24,9 m-15,0 a15,15 0 1 0 30,0 a15,15 0 1 0 -30,0" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M24,13 m-11,0 a11,11 0 1 0 22,0 a11,11 0 1 0 -22,0" />
+</vector>

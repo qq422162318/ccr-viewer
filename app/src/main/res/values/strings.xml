@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CCR 面板</string>
+
+    <!-- 底部标签 -->
+    <string name="tab_overview">概览</string>
+    <string name="tab_usage">用量</string>
+    <string name="tab_requests">请求</string>
+    <string name="tab_config">配置</string>
+
+    <!-- 通用 -->
+    <string name="refresh">刷新</string>
+    <string name="save">保存</string>
+    <string name="logout">退出</string>
+    <string name="prev">上一页</string>
+    <string name="next">下一页</string>
+    <string name="loading">加载中…</string>
+
+    <!-- 登录 -->
+    <string name="login_hint">输入管理网页访问令牌（ccr_web_token）</string>
+    <string name="token_hint">访问令牌</string>
+    <string name="login">登录</string>
+
+    <!-- 概览区块 -->
+    <string name="sec_gateway">网关状态</string>
+    <string name="sec_proxy">代理状态</string>
+    <string name="sec_totals">用量合计</string>
+    <string name="sec_recent">最近请求</string>
+
+    <!-- 配置区块 -->
+    <string name="sec_preferred">默认提供商</string>
+    <string name="sec_rules">内置路由规则</string>
+    <string name="sec_providers">提供商清单</string>
+</resources>

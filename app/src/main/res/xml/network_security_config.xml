@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 只对 116.205.124.216 放行明文 HTTP，其余一律禁止明文，降低被劫持风险 -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">116.205.124.216</domain>
+    </domain-config>
+</network-security-config>
